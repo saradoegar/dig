@@ -96,21 +96,17 @@ export function Hero() {
 
           {/* Photo Placeholder */}
           <div className="flex-1 flex items-center justify-center animate-fade-in">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 backdrop-blur-sm border-2 border-primary/30 flex items-center justify-center overflow-hidden glow-effect">
-                {/* Replace this with your photo */}
-                <div className="text-center p-8">
-                  <div className="w-full h-full bg-primary/10 rounded-full flex items-center justify-center">
-                    <p className="text-muted-foreground">
-                      <img
-                          src="/me.jpg"
-                         alt="My Photo"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-primary/20 rounded-full blur-3xl animate-glow-pulse"></div>
-            </div>
+            {/* Photo Placeholder */}
+<div className="flex-1 flex items-center justify-center animate-fade-in">
+  <div className="relative">
+    <img
+      src="/me.jpg"
+      alt="My Photo"
+      className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-lg border-2 border-primary/30"
+    />
+  </div>
+</div>
+
           </div>
         </div>
       </div>

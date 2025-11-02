@@ -8,25 +8,25 @@ export function Certificates() {
       title: "MySQL Bootcamp",
       issuer: "LetsUpgrade",
       date: "September 2025",
-      verifyLink: "#", // Update your links here
+      verifyLink: "https://verify.letsupgrade.in/certificate/LUESQLSEPT125213", // Update your links here
     },
     {
       title: "Python Bootcamp Course",
       issuer: "LetsUpgrade",
       date: "September 2025",
-      verifyLink: "#", // Update your links here
+      verifyLink: "https://verify.letsupgrade.in/certificate/LUEPYTMAY1254461", // Update your links here
     },
     {
       title: "HTML & CSS BootCamp",
       issuer: "LetsUpgrade",
       date: "September 2025",
-      verifyLink: "#", // Update your links here
+      verifyLink: "https://verify.letsupgrade.in/certificate/LUEHTMLSEPT1251160", // Update your links here
     },
     {
       title: "Figma BootCamp",
       issuer: "LetsUpgrade",
       date: "August 2025",
-      verifyLink: "#", // Update your links here
+      verifyLink: "https://verify.letsupgrade.in/certificate/LUEFGJUL1251309", // Update your links here
     },
     /* Add more certificates here */
   ];

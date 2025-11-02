@@ -17,11 +17,11 @@ export function Projects() {
     {
       title: "Digital Portfolio Website",
       description:
-        "Designed and deployed a personal portfolio website hosted on Vercel. Structured sections for About Me, Technical Skills, Creative Skills, and Contact Information. Focused on clean layout and styling using HTML and CSS basics.",
+        "Designed and deployed a personal portfolio website hosted on Vercel. Structured sections for About Me, Skills, Certification and Contact Information. Focused on clean layout and styling.",
       tech: ["HTML", "CSS", "Vercel"],
       date: "October 2025",
       link: "#", // Update your links here
-      github: "#", // Update your links here
+      github: "https://github.com/saradoegar", // Update your links here
       type: "Portfolio",
     },
     /* Add more projects here */

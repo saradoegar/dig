@@ -102,8 +102,10 @@ export function Hero() {
                 <div className="text-center p-8">
                   <div className="w-full h-full bg-primary/10 rounded-full flex items-center justify-center">
                     <p className="text-muted-foreground">
-                      {/* Replace with your photo */}
-                      Add Your Photo Here
+                      <img
+                          src="/me.jpg"
+                         alt="My Photo"
+                        className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover"/>
                     </p>
                   </div>
                 </div>

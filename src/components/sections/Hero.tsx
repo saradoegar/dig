@@ -104,8 +104,7 @@ export function Hero() {
                     <p className="text-muted-foreground">
                       <img
                           src="/me.jpg"
-                         alt="My Photo"
-                        className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover"/>
+                         alt="My Photo"/>
                     </p>
                   </div>
                 </div>

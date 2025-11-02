@@ -7,7 +7,7 @@ export function Certificates() {
     {
       title: "MySQL Bootcamp",
       issuer: "LetsUpgrade",
-      date: "September 2025",
+      date: "October 2025",
       verifyLink: "https://verify.letsupgrade.in/certificate/LUESQLSEPT125213", // Update your links here
     },
     {

@@ -11,15 +11,15 @@ export function Projects() {
         "Built a responsive website using Wix for LPU Unimall as part of a bridge course. Showcased different stores and services with clear navigation and branding. Applied UI/UX customization to improve accessibility and visual presentation.",
       tech: ["Wix", "UI/UX Design"],
       date: "August 2025",
-      link: "#", // Update your links here
+      link: "https://saradoegar.wixsite.com/lpu-unimall", // Update your links here
       type: "Website",
     },
     {
-      title: "Personal Portfolio Website",
+      title: "Digital Portfolio Website",
       description:
         "Designed and deployed a personal portfolio website hosted on Vercel. Structured sections for About Me, Technical Skills, Creative Skills, and Contact Information. Focused on clean layout and styling using HTML and CSS basics.",
       tech: ["HTML", "CSS", "Vercel"],
-      date: "July 2025",
+      date: "October 2025",
       link: "#", // Update your links here
       github: "#", // Update your links here
       type: "Portfolio",

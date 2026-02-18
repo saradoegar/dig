@@ -104,7 +104,7 @@ export function Hero() {
 
     {/* Photo itself */}
     <img
-      src="/me.jpg"
+      src="me.png"
       alt="My Photo"
       className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-lg border-4 border-primary/30 hover:border-primary/60 transition-all duration-500"
     />

@@ -65,6 +65,46 @@ export function Contact() {
       return;
     }
 
+    //API call or email sending logic would go here
+    const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!formData.name || !formData.email || !formData.message) {
+    toast({
+      title: "Error",
+      description: "Please fill in all fields.",
+      variant: "destructive",
+    });
+    return;
+  }
+
+  try {
+    const response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await response.json();
+
+    if (data.status === "success") {
+      toast({
+        title: "Message Sent!",
+        description: "Your message has been saved successfully.",
+      });
+
+      setFormData({ name: "", email: "", message: "" });
+    }
+  } catch (error) {
+    toast({
+      title: "Error",
+      description: "Something went wrong while sending the message.",
+      variant: "destructive",
+    });
+  }
+};
     // Here you would typically send the form data to a backend
     toast({
       title: "Message Sent!",

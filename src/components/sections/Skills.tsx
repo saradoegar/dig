@@ -21,8 +21,6 @@ export function Skills() {
       title: "Frameworks & Tools",
       icon: Wrench,
       skills: [
-        "React",
-        "Node.js",
         "MySQL",
         "Git",
         "GitHub",
